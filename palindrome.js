@@ -18,10 +18,5 @@ function isPalindrome(str) {
 }
 console.log(isPalindrome(str));
 
-function isPalindrome(str) {
-  return str.split("").every((char, i) => {
-    // iterate through the string, return true if the character at the index is equal to the character at the end of the string minus the index
-    return char === str[str.length - i - 1];
-  });
-}
+
 
